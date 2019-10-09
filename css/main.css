@@ -1,0 +1,90 @@
+html,
+body {
+	background-color: #f8f9fa;
+}
+
+a {
+	color: #2985c8;
+}
+
+.site-title-wrapper {
+	padding: 3rem 0px 1rem;
+	text-align: center;
+
+}
+
+.site-title {
+	font-size: 40px;
+	color: #78909C;
+	font-weight: 500;
+}
+
+.site-title:hover {
+	text-decoration: none;
+}
+
+.rate {
+	display: flex;
+	flex-direction: column;
+	color: #78909c;
+	text-align: center;
+}
+
+.rate__value {
+	font-size: 26px;
+}
+
+.rate__name {
+	font-size: 13px;
+}
+
+.question-title-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.copyright {
+	color: #78909c;
+	font-size: 13px;
+	text-align: center;
+}
+
+.vote {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.vote__plus {
+	font-size: 18px;
+}
+
+.vote__value {
+	font-size: 26px;
+	font-weight: 600;
+}
+.vote__minus {
+	font-size: 18px;
+}
+
+.input-for-badges {
+	border: none;
+	width: auto;
+}
+
+.badges-input {
+	display: flex;
+	align-items: center;
+}
+
+.badges-input .badge {
+	flex-grow: 0;
+	margin-right: 5px;
+}
+
+.input-for-badges {
+	flex-grow: 5;
+	padding-left: 3px;
+	padding-right: 3px;
+}
